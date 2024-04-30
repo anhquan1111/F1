@@ -1,0 +1,27 @@
+
+:root{
+    --color-one: #103178;
+    --color-two: #FFC800;
+    --color-text: #5B6C8F;
+    --font:'Inria Serif', serif;
+}
+a{
+    text-decoration:none;
+}
+*{
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+.button{
+    background-color: var(--color-two);
+    border-radius:45px;
+    color: white;
+    font-size: 17px;
+    font-weight:bold;
+    border: 2px solid var(--color-two);
+    text-align: center;
+}
+.button:hover{
+    background-color: white;
+    color: var(--color-two);
+}
